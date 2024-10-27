@@ -385,7 +385,7 @@ def evaluate_transformer(args,encoder_image,sem_enhance,spatial_enhance,encoder_
 
 
 if __name__ == '__main__':
-    parser = argparse.ArgumentParser(description='Change_Captioning')
+    parser = argparse.ArgumentParser(description='Remote_Captioning')
     parser.add_argument('--data_folder', default="./data/NWPU_input1",help='folder with data files saved by create_input_files.py.')
     parser.add_argument('--data_name', default="NWPU_input_5_cap_per_img_5_min_word_freq",help='base name shared by data files.')
 
@@ -398,7 +398,7 @@ if __name__ == '__main__':
     parser.add_argument('--path', default="./models_checkpoint/NWPU/", help='model checkpoint.')
     args = parser.parse_args()
 
-    filename = 'BEST_checkpoint_resnet50_CVFF_trans17_31NWPU.pth.tar'
+    filename = 'SSCPNet_NWPU.pth.tar'
     checkpoint_path = os.path.join(args.path, filename)
 
 
