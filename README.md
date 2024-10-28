@@ -10,4 +10,5 @@ https://drive.google.com/drive/folders/1AK-E9BemytL24tixI7t2y2W4NW5n28Qb?usp=dri
 
 
 Then python train_SSCPNet_NWPU.py 
+
 Finally python eval7_NWPU.py
